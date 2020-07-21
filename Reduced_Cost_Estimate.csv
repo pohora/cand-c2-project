@@ -1,0 +1,19 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,8.91,106.92,USD,"Data Transfer, Data transfer cost (8.91)"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,55.35,664.2,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,4119.371,49432.45,USD,"Quantity (1), Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (15 TB), Instance type (db.t3.xlarge)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,688.62,8263.44,USD,"Operating system (Linux), Quantity (6), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (60 GB), Instance type (m5a.2xlarge)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,403.6,4843.2,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (t3a.xlarge)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,44.53,534.36,USD,Number of Application Load Balancers (2)
+,,,,,,,
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+,,,,,,,
+Steps taken to reduce costs:,,,,,,,
+1. Reduced number of instances for Web Group EC2 from 8 -> 6,,,,,,,
+2. Moved from 1 -> 3 year reservation EC2 Savings Plan,,,,,,,
+3. Reduced Cost by choosing Linux instead of Higher cost Windows Server cost,,,,,,,
+"4. For the Application Server Group , moved from 1year to 3year reservation  EC2 Savings Plan",,,,,,,
+"5. For the Application Server Group, moved from Windows Server to Linux OS",,,,,,,
+6. Reduced RDS storage from 20TB to 15TB,,,,,,,

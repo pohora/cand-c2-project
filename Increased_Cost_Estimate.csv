@@ -1,0 +1,18 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,8.91,106.92,USD,"Data Transfer, Data transfer cost (8.91)"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,55.35,664.2,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,14077.756,168933.07,USD,"Quantity (1), Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (40 TB), Instance type (db.m5.12xlarge)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,2066.3,24795.6,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (60 GB), Instance type (m4.4xlarge)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,2103.04,25236.48,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (m5ad.4xlarge)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,44.53,534.36,USD,Number of Application Load Balancers (2)
+,,,,,,,
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+,,,,,,,
+Steps to increase Cost / Performance,,,,,,,
+,,,,,,,
+1. Increased number of EC2 instances,,,,,,,
+2. Increased power of EC2 instances,,,,,,,
+3. Increased power of RDS service,,,,,,,
+4. Increased storage from 20TB to 40TB,,,,,,,
